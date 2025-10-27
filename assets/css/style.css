@@ -26,10 +26,7 @@ h1, h2, h3 {
     color: #252525;
 }
 
-hr{
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
+
 
 /* header */
 
@@ -127,6 +124,7 @@ main {
     color: #ffffff;
 } 
 
+/*Reasons section*/
 #reasons{
     width: 90%;
     margin: 2px auto;
@@ -146,6 +144,28 @@ main {
 
 #benefits p{
     padding: 0 20px;
+}
+
+#benefits hr{
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#circle-cover-bg{
+    background: url(../images/reasons-image.webp) no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /*Makes square images a circle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;   
+}
+
+#benefits-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
