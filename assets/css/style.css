@@ -96,8 +96,12 @@ main {
   margin-top: 47px;
 }
 /* Footer */
-footer {
-  background-color: orange;
+#social-networks{
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 
@@ -147,5 +151,5 @@ footer {
      border-bottom: 1px solid #3a3a3a;
     }
 
-    
+
 }
